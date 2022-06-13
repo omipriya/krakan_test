@@ -1,3 +1,5 @@
+package websockets;
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.WebSocket;
@@ -337,8 +339,4 @@ class krakenTestCaseFinal {
 	      }
 	      return jsonToList.stream().map(Double::valueOf).collect(Collectors.toList());
     }
-
-
-
-
 }
